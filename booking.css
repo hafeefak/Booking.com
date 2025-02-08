@@ -1,0 +1,374 @@
+body{
+    margin:0;
+}
+.container{
+    margin:0;
+    padding:0;
+    background-color:darkblue;
+    color:white;
+    font-size: 18px;
+     position:relative; 
+     z-index:1; 
+   
+}
+.header{
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom: 4%;
+    display:grid;
+    gap:70px;
+}
+.header1{
+    display:grid;
+    grid-template-rows:auto auto ;
+}
+.nav1{
+    display:grid;
+    grid-template-columns:50% 50% ;
+}
+.divright{
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    padding-top:25px;
+    text-align:center;
+    line-height:50px;
+    gap:6px;
+}
+.nav2{
+    display:grid;
+    grid-template-columns:70% 30%;
+    padding-top:10px;
+}
+.nav2left{
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    padding-top:10px;
+    text-align:center;
+   line-height:50px;
+}
+.booking{
+    text-align: left;
+}
+.button{
+    height:40px;
+    width:90px;
+    font-size:16px;
+    color:blue;
+
+}
+
+.india img{
+    border-radius:100%;
+    width:30px;
+    padding:10px;
+    
+}
+.stays{
+    border:1px solid white;
+    border-radius:50px;
+    width:100px;
+    height:30px;
+    line-height:50px;
+    padding-bottom:15px;
+    text-align:center;
+    background-color: #0E4D92;
+}
+.inr:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+
+.india:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.icon:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.list:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.flight:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.flighthotel:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.carrent:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.attraction:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+.airport:hover{
+    background-color:#0E4D92;
+    border-radius:50px;
+}
+
+.container1{
+    padding:0;
+    margin:0;
+    font-size:18px;
+    display:grid;
+    gap:30px;
+}
+.section1{
+    
+    padding-left:8%;
+    padding-right:10%;
+}
+.box{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    border:3px normal orange ;
+    position:absolute;
+    z-index:2;
+    top:400px;
+    height:60px;
+    border-radius: 8px; 
+}
+.place, .people, .date{
+    background-color:white;
+     line-height:50px;
+   text-align:center;
+    border-radius:8px;
+    position:relative;
+    
+    
+   
+}
+
+.place i, .people i, .date i{
+    position:absolute;
+    left: 17%;
+    top: 36%;
+    color:  black;
+
+}
+.buttons{
+    
+    line-height:50px;
+    width:110px;
+    color:white;
+    font-size: 25px;
+} 
+
+.section2{
+    display:grid;
+    grid-template-rows:50% 25% 25%;
+    gap:10px;
+    padding-left:8%;
+}
+
+.offer{
+    font-style: bold;
+}
+
+img{
+    border-radius:10px;
+    
+}
+.section3{
+    display:grid;
+    grid-template-columns:auto auto;
+    border:1px solid black;
+    margin-left:8%;
+    margin-right:10%;
+}
+.sectionleft{
+    display:grid;
+    grid-template-rows:auto auto auto;
+    align-content:space-evenly;
+    padding-left:10px;
+}
+.more2{
+    border:1px solid black;
+    color:white;
+    background-color:#0E4D92;
+    line-height:50px;
+    width:200px;
+    text-align:center;
+    border-radius:10px;
+}
+.sectionright{
+    display:flex;
+    justify-content:flex-end;
+    padding:20px 20px 20px 0px;
+}
+
+.sectionright img{
+    width:200px;
+    border-radius:10px;
+}
+.circle{
+    background-color:darkblue;
+    border-radius:100%;
+    height:10px;
+    width:10px;
+    margin:0px 50%;
+}
+.explore, .top, .deals{
+    margin-left:8%;
+    margin-right:10%;
+}
+.section4{
+    margin-left:8%;
+    margin-right:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.section5{
+    margin-left:8%;
+    margin-right:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.te{
+   font-weight: bold;
+}
+.section6{
+    margin-left:8%;
+    margin-right:10%;
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    text-align:center;
+    line-height:50px;
+}
+.city{
+    border:1px solid blue;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+    color:blue;
+    background-color:lightgray;
+}
+.beach:hover{
+    background-color:lightgrey;
+    border:1px solid transparent;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.outdoors:hover{
+    background-color:lightgrey;
+    border:1px solid transparent;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.relax:hover{
+    background-color:lightgrey;
+    border:1px solid transparent;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.romance:hover{
+    background-color:lightgrey;
+    border:1px solid transparent;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.food:hover{
+    background-color:lightgrey;
+    border:1px solid transparent;
+    border-radius:50px;
+    height:50px;
+    width:100px;
+}
+.section7{
+    margin-left:8%;
+    margin-right:10%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.section8{
+    margin-left:10%;
+    margin-right:10%; 
+    display:grid;
+    grid-template-columns:50% 50%; 
+    justify-content:space-between;
+}
+
+.section9{
+    margin-left:10%;
+    margin-right:10%; 
+    display:flex;
+    justify-content:space-between;
+}
+
+ .picture{
+    position:relative;
+    
+ }
+.topleft{
+
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+    display:flex;
+ }
+ .section10{
+    margin-left:10%;
+    margin-right:10%; 
+   display:flex;
+   justify-content:space-between;
+    
+ }
+ .card1, .card2, .card3, .card4{
+    border:1px solid transparent;
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left:10px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    height:600px;
+}
+ .cost{
+    position:absolute;
+    top:95%;
+    left:80px;
+ }
+ h5{
+    width:50px;
+    background-color:darkblue;
+    color:white;
+    font-weight: bold;
+}
+.green{
+   
+    background-color:green;
+    color:white;
+    font-weight: bold;
+}
+.ra{
+    width:50px;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+}
+
+.price{
+    color:red;
+    text-decoration-line: line-through;
+  text-decoration-color: red;
+  
+}
+.photo{
+    padding-right: 10px;
+    width:280px;
+}
